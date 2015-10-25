@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1443328485 source:/home/jorge/Documents/SemModular/trabajoModular/main.cpp
+	<iostream>
+	"ArchivoFasta.h"
+
+1443328471 source:/home/jorge/Documents/SemModular/trabajoModular/src/ArchivoFasta.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	"ArchivoFasta.h"
+
+1443303178 /home/jorge/Documents/SemModular/trabajoModular/include/ArchivoFasta.h
+	<string>
+
+1444397058 source:/home/jorge/Documents/SemModular/trabajoModular/src/ArchivoGB.cpp
+	"ArchivoGB.h"
+
+1444397033 /home/jorge/Documents/SemModular/trabajoModular/include/ArchivoGB.h
+	<string>
+
+1443328484 source:c:\users\karla\documents\semmodular\trabajomodular\main.cpp
+	<iostream>
+	"ArchivoFasta.h"
+
+1443303178 c:\users\karla\documents\semmodular\trabajomodular\include\archivofasta.h
+	<string>
+
+1445788117 source:c:\users\karla\documents\semmodular\trabajomodular\src\archivofasta.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	"ArchivoFasta.h"
+
+1444397058 source:c:\users\karla\documents\semmodular\trabajomodular\src\archivogb.cpp
+	"ArchivoGB.h"
+
+1444397032 c:\users\karla\documents\semmodular\trabajomodular\include\archivogb.h
+	<string>
+
