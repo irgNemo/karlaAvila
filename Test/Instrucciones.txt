@@ -1,0 +1,28 @@
+En los archivos main.cpp y main2.cpp se utilizan los diferentes metodos de las clases, alfabeth y sequence. 
+De modo que puede ejemplificarse su utilidad.
+En el main.cpp se prueban los metodos y el correcto funcionamiento de la clase alphabeth y sus clases hijas.
+En el main2.cpp se prueban los metodos y su correcto funcionamiento respecto a la clase sequence, aunque 
+aun quedan pendientes por redactar algunos metodos como el de traduccion, trascripcion y frameshift,etc.
+
+Para poder compilar y ejecutar main.cpp, en linux : Hay que poner en la consola los siguientes comandos, 
+una vez ubicados en la carpeta donde se encuentran los archivos:
+
+g++ -std=c++11 alphabeth.h -o alphabeth
+g++ -std=c++11 alphabethDNA.h -o alphabethDNA
+g++ -std=c++11 alphabethRNA.h -o alphabethRNA
+g++ -std=c++11 alphabethAMINO.h -o alphabethAMINO
+g++ -std=c++11 main.cpp -o main
+./main
+
+Para poder compilar y ejecutar main2.cpp, en linux : Hay que poner en la consola los siguientes comandos, 
+una vez ubicados en la carpeta donde se encuentran los archivos:
+
+g++ -std=c++11 sequence.h -o sequence
+g++ -std=c++11 main2.cpp -o main2
+./main2
+
+
+Cualquier duda, error , comentario hacerlo llegar al correo kavilac@gmail.com
+
+
+
