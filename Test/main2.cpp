@@ -8,6 +8,24 @@ Universidad de Guadalajara
 
 int main(){
 
+//PRUEBA METODO CON STRING Y TRANSLATE
+		AlphabethRNA rna;
+		Sequence secuencia;
+		secuencia.setSequence("GGGCGGAUAUUA");
+		std::cout << "\nOriginal sequence: \n";
+		secuencia.display();
+		secuencia.setAlphabeth(rna);
+		Sequence seq2 = secuencia.transcript(secuencia,0);
+		std::cout << "\nTranscripted sequence: \n";
+		seq2.display();
+/*
+//PRUEBA DEL CONSTRUCCTOR CON STRING
+	std::string miCadena ("AAGCUA");
+	AlphabethRNA rna;
+	Sequence miSequence(rna,miCadena);
+	miSequence.display();
+*/
+/*
 //PRUEBA CON ALPHABETH HIJO
 	AlphabethRNA rna;
 	std::vector<char> vecSeq;
@@ -60,6 +78,7 @@ std::cout<< "\n-----------------------------------------------------------------
 	}
 	else
 			std::cout << "\nNo concuerda\n";
+			*/
 }
 
 
